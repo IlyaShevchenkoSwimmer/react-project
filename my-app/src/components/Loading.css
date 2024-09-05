@@ -1,0 +1,23 @@
+.loading {
+    display: flex;
+    justify-content: center;
+}
+
+.loading-letter {
+    color: black;
+}
+
+@keyframes loading-anim {
+    0% {
+        transform: translateX(0)
+    }
+    49% {
+        transform: translateX(-1500px)
+    }
+    50% {
+        transform: translateX(1500px);
+    }
+    90% {
+        transform: translateX(0);
+    }
+}
