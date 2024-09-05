@@ -11,13 +11,13 @@
     0% {
         transform: translateX(0)
     }
-    49% {
+    19% {
         transform: translateX(-1500px)
     }
-    50% {
+    20% {
         transform: translateX(1500px);
     }
-    90% {
+    30% {
         transform: translateX(0);
     }
 }
